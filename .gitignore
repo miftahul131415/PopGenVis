@@ -1,0 +1,20 @@
+# Hasil cache pipeline (bisa berukuran GB, aman dihapus dan dibuat ulang)
+cache/*
+!cache/.gitkeep
+
+# Keluaran default skrip eksperimen (hasil yang disimpan ditambahkan manual)
+eksperimen/hasil_tes_seed.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Log
+*.log
+
+# Editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*Zone.Identifier
