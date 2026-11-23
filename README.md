@@ -1,11 +1,17 @@
-# Dashboard Evaluasi Algoritma Manifold Learning pada Data Genom
+# PopGenVis
+### Population Genetics Visualization
 
-Dashboard Streamlit untuk memvisualisasikan kemiripan genetik antarindividu dari data SNP
-(format VCF) dan membandingkan tiga algoritma reduksi dimensi: **UMAP**, **t-SNE**, dan **MDS**.
+PopGenVis merupakan dashboard interaktif berbasis Streamlit untuk memvisualisasikan kemiripan genetik antarindividu berdasarkan data Single Nucleotide Polymorphism (SNP) dalam format Variant Call Format (VCF).
 
-Dashboard ini adalah luaran pendukung skripsi **"Evaluasi Algoritma Manifold Learning untuk
-Visualisasi Kemiripan Genetik Populasi Manusia"** oleh Miftahul Jannah (NIM 2303126066),
-Program Studi Sistem Informasi, FMIPA, Universitas Riau.
+Dashboard ini mengimplementasikan dan mengevaluasi tiga algoritma reduksi dimensi, yaitu **Multidimensional Scaling (MDS)**, **t-distributed Stochastic Neighbor Embedding (t-SNE)**, dan **Uniform Manifold Approximation and Projection (UMAP)**.
+
+PopGenVis dikembangkan sebagai luaran pendukung penelitian skripsi berjudul **"Evaluasi Algoritma Manifold Learning untuk Visualisasi Kemiripan Genetik Populasi Manusia"** oleh:
+
+- **Nama:** Miftahul Jannah
+- **NIM:** 2303126066
+- **Program Studi:** Sistem Informasi
+- **Fakultas:** Matematika dan Ilmu Pengetahuan Alam
+- **Universitas:** Universitas Riau
 
 ## Alur pipeline
 
@@ -98,8 +104,8 @@ plink2 --version
 
 ```bash
 cd ~
-git clone https://github.com/miftahul131415/genome_dashboard.git
-cd genome_dashboard
+git clone https://github.com/miftahul131415/PopGenVis.git
+cd PopGenVis
 ```
 
 
