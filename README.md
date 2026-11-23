@@ -99,7 +99,7 @@ plink2 --version
 ```bash
 cd ~
 git clone https://github.com/miftahul131415/genome_dashboard.git
-cd NAMA-REPO
+cd genome_dashboard
 ```
 
 
